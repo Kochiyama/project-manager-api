@@ -3,7 +3,7 @@ const router = express.Router();
 
 const checkProjectExistence = require("./middlewares/projectChecker");
 const checkTaskExistence = require("./middlewares/taskChecker");
-const ProjectsController = require("./controllers/PojectsController");
+const ProjectsController = require("./controllers/ProjectsController");
 const TasksController = require("./controllers/TasksControler");
 
 const projectsController = new ProjectsController();
